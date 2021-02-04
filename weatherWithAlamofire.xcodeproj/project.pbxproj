@@ -88,14 +88,14 @@
 			children = (
 				CE2857E324FFD8D90057F9AB /* AppDelegate.swift */,
 				CE2857E524FFD8D90057F9AB /* SceneDelegate.swift */,
-				CE2857E724FFD8D90057F9AB /* ViewController.swift */,
+				CEFDAC0025CC490000F9E5F3 /* ViewController */,
 				CEFD260025062CA200214B0B /* Model */,
+				CEFD260125062CBF00214B0B /* CollectionViewCells */,
+				CE792F842506585F00B793B3 /* Network */,
 				CE2857E924FFD8D90057F9AB /* Main.storyboard */,
 				CE792F822506547D00B793B3 /* Assets.xcassets */,
-				CEFD260125062CBF00214B0B /* CollectionViewCells */,
 				CE2857EE24FFD8DA0057F9AB /* LaunchScreen.storyboard */,
 				CE2857F124FFD8DA0057F9AB /* Info.plist */,
-				CE792F842506585F00B793B3 /* Network */,
 			);
 			path = weatherWithAlamofire;
 			sourceTree = "<group>";
@@ -122,6 +122,14 @@
 				CEFD25FC25061F3100214B0B /* CollectionViewCell.swift */,
 			);
 			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		CEFDAC0025CC490000F9E5F3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE2857E724FFD8D90057F9AB /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

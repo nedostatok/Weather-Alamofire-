@@ -19,10 +19,9 @@ class ViewController: UIViewController {
     
     var hourlyWeaterArray = [WeatherModel]()
     var currentlWeather: Currently?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         fetchWeather()
         fetchCurrentlyWeather()
         customizeDateLabel()
@@ -73,7 +72,6 @@ class ViewController: UIViewController {
     }
     
     func weatherIcon() {
-        
         guard let text = skyLabel.text else { return }
         
         switch text {
@@ -99,6 +97,7 @@ class ViewController: UIViewController {
         let blur = UIBlurEffect(style: .systemUltraThinMaterialDark)
         let blurView = UIVisualEffectView(effect: blur)
         blurView.frame = bgView.bounds
+        blurView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         bgView.addSubview(blurView)
     }
     
